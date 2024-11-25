@@ -1,0 +1,43 @@
+{
+  "name": "popup-not-popup",
+  "version": "1.0.0",
+  "description": "A React component that creates customizable Popups with a set of pre-built layouts.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": {
+    "name": "David Waster"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/bun": "latest",
+    "rollup": "^4.27.4",
+    "rollup-plugin-import-css": "^3.5.7",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "ui",
+    "popup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David256/popup-not-popup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/David256/popup-not-popup/issues"
+  },
+  "homepage": "https://github.com/David256/popup-not-popup",
+  "license": "MIT"
+}
